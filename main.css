@@ -1,0 +1,80 @@
+/* 
+    Created on : Jul 22, 2016, 6:13:21 AM
+    Author     : Nigel Carty
+*/
+
+#header{
+    color:white;
+    background-color: black;
+    margin: 0 auto;
+     padding: 5px;    
+     text-align:center;
+}
+#headline{
+    font-size: 60px;
+    margin:5px auto 0;
+   }
+#btnRow{
+    font-size:25px;
+    color:white;
+    background-color: rgba(255,255,255, 0.5);    
+    margin:0 0 5px 0;  
+    }
+
+button{
+     color:white;
+    border-radius: 30px;
+    margin: 6px 10px;
+}
+#btn0{
+    background-color: black;
+}
+
+#btn1{
+    background-color: green;
+}
+#btn2{
+    background-color: cornflowerblue;
+}
+#btn3{
+    background-color: orangered;
+}
+
+.myContainer{
+    margin:0 16%;
+}
+
+.tableHead{
+    background-color: black;
+    vertical-align: middle;
+}
+
+#theStreams{
+    color:white;
+}
+
+.w3-row{
+    border-color: black;
+    border-width: 1px;
+    padding:5px;
+    margin-bottom:1px;
+    box-sizing: border-box;
+ }
+ .w3-col{
+    padding: 3px; 
+ }
+ 
+img{
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+}
+.offline{
+    background-color: cornflowerblue;
+}
+.nonExistent{
+    background-color: orangered;
+}
+.online{
+    background-color:green;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TWITCH TV API</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"> </script>  
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> 
+    <script src="https://use.fontawesome.com/14c67ebfb3.js"></script>  
+
+    <script  src = "main.js"></script> 
+    <link rel='stylesheet' href = 'main.css'>
+    <script>
+        $(document).ready(getTwitchTVData);
+    </script>
+    
+    <style type="text/css">   
+    a  { color:#0000FF; }
+    a:visited { color:#800080; }
+    a:hover { color:#000000; }
+    a:active { color:#FF0000; }   
+    </style>
+    
+    <!-- the conditional comment below is used to enable HTML5 sectioning in legacy IE browsers-->
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+  </head>
+  <body >
+      <div class = "myContainer">
+          <div id = 'header'>
+              <p id = 'headline'>TWITCH TV CHANNELS</p>
+              <p id ="btnRow"><button id ='btn0'  onclick="filterChannels(0)"><i class = "fa fa-list-alt"></i></button><button id ='btn1'  onclick="filterChannels(1)"><i class = "fa fa-plus-circle"></i></button>
+                                                 <button id ='btn2'  onclick="filterChannels(2)"><i class = "fa fa-minus-circle"></i></button><button id ='btn3'   onclick="filterChannels(3)"><i class = "fa fa-ban"></i></button></p>
+         </div>     
+          <div id = 'theStreams'>     
+               <div  class = " tableHead w3-row"><div class = "w3-col m1 w3-center">LOGO</div>
+                   <div class = "w3-col m2 w3-center">NAME/URL</div><div class = "w3-col m1 w3-center">GAME</div>
+                    <div class = "w3-col m5 w3-center">STATUS</div><div class = "w3-col m1 w3-center">VIEWS</div><div class = "w3-col m2 w3-center">FOLLOWERS</div></div>                           
+
+          </div>
+  </div>
+  </body>
+</html>
