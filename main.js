@@ -1,10 +1,9 @@
-var arr =    ['blahblah','ESL_SC2', 'OgamingSC2', 'Habathcx', 'Storbeck', 'ThomasBallinger', 'RobotCaleb', 'noobs2ninjas', 'Beohoff', 'brunofin',
-                       'sheevergaming', 'TR7K','freecodecamp', 'nigelalex', 'nigelalexc', 'comster404', 'cretetion','terakilobyte', 'Test_channel','Nightblue3','TakeTV_HS','IWillDominate','TimTheTatman','Savjz','Blusewilly_retry'];
+var arr =    ['blahblah','ESL_SC2', 'OgamingSC2', 'Habathcx', 'Storbeck', 'RobotCaleb', 'noobs2ninjas', 'Beohoff', 'brunofin',
+                       'sheevergaming', 'TR7K','freecodecamp', 'nigelalex', 'comster404', 'cretetion', 'Test_channel','Nightblue3','TakeTV_HS','IWillDominate','TimTheTatman','Savjz','Blusewilly_retry'];
  
 var spot = $('#theStreams');           
 
-function filterChannels(choice){
-    
+function filterChannels(choice){    
     if (choice === 0)
     {
         $('w3-row').css('display', 'inherit');
@@ -58,7 +57,7 @@ function getStream(data, textStatus, jqXHR, str){
         D.followers = 'N/A';
         
         $('#theStreams').append('<div  class = "nonExistent  w3-row"><div class = "w3-col m1 w3-center"><img src = "'+D.logo +'" alt = "Logo"></div><div class = "w3-col m2 w3-center"><a href = "'+D.url+'" target = "_blank">'+D.display_name+'</a></div><div class = "w3-col m1 w3-center">'+D.game+'</div>'+
-                                '<div class = "w3-col m5 w3-center">'+D.status+'</div><div class = "w3-col m1 w3-center">'+D.views+'</div><div class = "w3-col m2 w3-center">'+D.followers+'</div></div>');                            
+                                '<div class = "w3-col m5 w3-center">'+D.status+'</div><div class = "w3-col m2 w3-center">'+D.followers+'</div></div>');                            
 
     }
     
@@ -86,7 +85,7 @@ function getStream(data, textStatus, jqXHR, str){
                                 D.followers = 0;                          
                             
                              $('#theStreams').append('<div  class = "offline  w3-row"><div class = "w3-col m1 w3-center"><img src = "'+D.logo +'" alt = "Logo"></div><div class = "w3-col m2 w3-center"><a href = "'+D.url+'"  target = "_blank">'+D.display_name+'</a></div><div class = "w3-col m1 w3-center">'+D.game+'</div>'+
-                                '<div class = "w3-col m5 w3-center">'+D.status+'</div><div class = "w3-col m1 w3-center">'+D.views+'</div><div class = "w3-col m2 w3-center">'+D.followers+'</div></div>');                            
+                                '<div class = "w3-col m5 w3-center">'+D.status+'</div><div class = "w3-col m2 w3-center">'+D.followers+'</div></div>');                            
 
                         },
             error: function(jqXHR, textStatus){
@@ -110,7 +109,7 @@ function getStream(data, textStatus, jqXHR, str){
                                 D.followers = 0;                          
                             
                               $('#theStreams').append('<div  class = "offline  w3-row"><div class = "w3-col m1 w3-center"><img src = "'+D.logo +'" alt = "Logo"></div><div class = "w3-col m2 w3-center"><a href = "'+D.url+'"  target = "_blank">'+D.display_name+'</a></div><div class = "w3-col m1 w3-center">'+D.game+'</div>'+
-                                '<div class = "w3-col m5 w3-center">'+D.status+'</div><div class = "w3-col m1 w3-center">'+D.views+'</div><div class = "w3-col m2 w3-center">'+D.followers+'</div></div>');                            
+                                '<div class = "w3-col m5 w3-center">'+D.status+'</div><div class = "w3-col m2 w3-center">'+D.followers+'</div></div>');                            
 
             }});  
     }   
@@ -137,7 +136,7 @@ function getStream(data, textStatus, jqXHR, str){
                                 D.followers = 0;                          
                             
                              $('#theStreams').append('<div  class = "online  w3-row"><div class = "w3-col m1 w3-center"><img src = "'+D.logo +'" alt = "Logo"></div><div class = "w3-col m2 w3-center"><a href = "'+D.url+'"  target = "_blank">'+D.display_name+'</a></div><div class = "w3-col m1 w3-center">'+D.game+'</div>'+
-                                '<div class = "w3-col m5 w3-center">'+D.status+'</div><div class = "w3-col m1 w3-center">'+D.views+'</div><div class = "w3-col m2 w3-center">'+D.followers+'</div></div>');                            
+                                '<div class = "w3-col m5 w3-center">'+D.status+'</div><div class = "w3-col m2 w3-center">'+D.followers+'</div></div>');                            
 
     } //else
     

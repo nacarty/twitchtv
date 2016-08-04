@@ -12,10 +12,14 @@
 }
 #headline{
     font-size: 60px;
-    margin:5px auto 0;
+    margin:0px auto 0;
+    background-image:url('twitchsvg_logo.png');
+    height:220px;
+    background-repeat: no-repeat;
+    background-position-x: center;
    }
 #btnRow{
-    font-size:25px;
+    font-size:13px;
     color:white;
     background-color: rgba(255,255,255, 0.5);    
     margin:0 0 5px 0;  
@@ -23,7 +27,7 @@
 
 button{
      color:white;
-    border-radius: 30px;
+    border-radius: 6px;
     margin: 6px 10px;
 }
 #btn0{
@@ -31,17 +35,17 @@ button{
 }
 
 #btn1{
-    background-color: green;
+    background-color: #00cc99;
 }
 #btn2{
     background-color: cornflowerblue;
 }
 #btn3{
-    background-color: orangered;
+    background-color: #ff9999;
 }
 
 .myContainer{
-    margin:0 16%;
+    margin:0 10%;
 }
 
 .tableHead{
@@ -55,26 +59,26 @@ button{
 
 .w3-row{
     border-color: black;
-    border-width: 1px;
+    border-width: 2px;
     padding:5px;
-    margin-bottom:1px;
-    box-sizing: border-box;
+    margin-bottom:4px;
+   border-radius: 4px;
  }
  .w3-col{
     padding: 3px; 
  }
  
 img{
-    height:50px;
-    width:50px;
+    height:90px;
+    width:90px;
     border-radius: 10px;
 }
 .offline{
     background-color: cornflowerblue;
 }
 .nonExistent{
-    background-color: orangered;
+    background-color: #ff9999;
 }
 .online{
-    background-color:green;
+    background-color: #00cc99;
 }

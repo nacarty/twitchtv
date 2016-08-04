@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>TWITCH TV API</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"> </script>  
-    <link rel="stylesheet" href = "w3.css"> 
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> 
     <script src="https://use.fontawesome.com/14c67ebfb3.js"></script>  
 
     <script  src = "main.js"></script> 
@@ -29,14 +29,14 @@
   <body >
       <div class = "myContainer">
           <div id = 'header'>
-              <p id = 'headline'>TWITCH TV CHANNELS</p>
-              <p id ="btnRow"><button id ='btn0'  onclick="filterChannels(0)"><i class = "fa fa-list-alt"></i></button><button id ='btn1'  onclick="filterChannels(1)"><i class = "fa fa-plus-circle"></i></button>
-                                                 <button id ='btn2'  onclick="filterChannels(2)"><i class = "fa fa-minus-circle"></i></button><button id ='btn3'   onclick="filterChannels(3)"><i class = "fa fa-ban"></i></button></p>
+              <div id = 'headline'> </div>
+              <p id ="btnRow"><button id ='btn0'  onclick="filterChannels(0)">ALL</button><button id ='btn1'  onclick="filterChannels(1)">ONLINE</button>
+                                                 <button id ='btn2'  onclick="filterChannels(2)">OFFLINE</button><button id ='btn3'   onclick="filterChannels(3)">OUT</button></p>
          </div>     
           <div id = 'theStreams'>     
                <div  class = " tableHead w3-row"><div class = "w3-col m1 w3-center">LOGO</div>
-                   <div class = "w3-col m2 w3-center">NAME/URL</div><div class = "w3-col m1 w3-center">GAME</div>
-                    <div class = "w3-col m5 w3-center">STATUS</div><div class = "w3-col m1 w3-center">VIEWS</div><div class = "w3-col m2 w3-center">FOLLOWERS</div></div>                           
+                   <div class = "w3-col m2 w3-center">NAME</div><div class = "w3-col m1 w3-center">GAME</div>
+                    <div class = "w3-col m5 w3-center">STATUS</div><div class = "w3-col m2 w3-center">FOLLOWERS</div></div>                           
 
           </div>
   </div>
