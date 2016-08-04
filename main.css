@@ -46,7 +46,7 @@ button{
 }
 
 .myContainer{
-    margin:0 10%;
+    margin:0 5%;
 }
 
 .tableHead{
@@ -63,7 +63,7 @@ button{
     border-color: black;
     border-width: 2px;
     padding:5px;
-    margin:0 10% 4px;
+    margin:0 5% 4px;
    border-radius: 4px;
  }
  .w3-col{
