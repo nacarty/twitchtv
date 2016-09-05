@@ -57,7 +57,7 @@ function getStream(data, textStatus, jqXHR, str){
         D.followers = 'N/A';
         
         $('#theStreams').append('<div  class = "nonExistent  w3-row"><div class = "w3-col m1 w3-center"><img src = "'+D.logo +'" alt = "Logo"></div><div class = "w3-col m2 w3-center"><a href = "'+D.url+'" target = "_blank">'+D.display_name+'</a></div><div class = "w3-col m1 w3-center">'+D.game+'</div>'+
-                                '<div class = "w3-col m5 w3-center">'+D.status+'</div><div class = "w3-col m2 w3-center">'+D.followers+'</div></div>');                            
+                                '<div class = "w3-col m7 w3-center">'+D.status+'</div><div class = "w3-col m1 w3-center">'+D.followers+'</div></div>');                            
 
     }
     
@@ -85,7 +85,7 @@ function getStream(data, textStatus, jqXHR, str){
                                 D.followers = 0;                          
                             
                              $('#theStreams').append('<div  class = "offline  w3-row"><div class = "w3-col m1 w3-center"><img src = "'+D.logo +'" alt = "Logo"></div><div class = "w3-col m2 w3-center"><a href = "'+D.url+'"  target = "_blank">'+D.display_name+'</a></div><div class = "w3-col m1 w3-center">'+D.game+'</div>'+
-                                '<div class = "w3-col m5 w3-center">'+D.status+'</div><div class = "w3-col m2 w3-center">'+D.followers+'</div></div>');                            
+                                '<div class = "w3-col m7 w3-center">'+D.status+'</div><div class = "w3-col m1 w3-center">'+D.followers+'</div></div>');                            
 
                         },
             error: function(jqXHR, textStatus){
@@ -109,7 +109,7 @@ function getStream(data, textStatus, jqXHR, str){
                                 D.followers = 0;                          
                             
                               $('#theStreams').append('<div  class = "offline  w3-row"><div class = "w3-col m1 w3-center"><img src = "'+D.logo +'" alt = "Logo"></div><div class = "w3-col m2 w3-center"><a href = "'+D.url+'"  target = "_blank">'+D.display_name+'</a></div><div class = "w3-col m1 w3-center">'+D.game+'</div>'+
-                                '<div class = "w3-col m5 w3-center">'+D.status+'</div><div class = "w3-col m2 w3-center">'+D.followers+'</div></div>');                            
+                                '<div class = "w3-col m7 w3-center">'+D.status+'</div><div class = "w3-col m1 w3-center">'+D.followers+'</div></div>');                            
 
             }});  
     }   
@@ -136,7 +136,7 @@ function getStream(data, textStatus, jqXHR, str){
                                 D.followers = 0;                          
                             
                              $('#theStreams').append('<div  class = "online  w3-row"><div class = "w3-col m1 w3-center"><img src = "'+D.logo +'" alt = "Logo"></div><div class = "w3-col m2 w3-center"><a href = "'+D.url+'"  target = "_blank">'+D.display_name+'</a></div><div class = "w3-col m1 w3-center">'+D.game+'</div>'+
-                                '<div class = "w3-col m5 w3-center">'+D.status+'</div><div class = "w3-col m2 w3-center">'+D.followers+'</div></div>');                            
+                                '<div class = "w3-col m7 w3-center">'+D.status+'</div><div class = "w3-col m1 w3-center">'+D.followers+'</div></div>');                            
 
     } //else
     
